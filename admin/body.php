@@ -1,9 +1,14 @@
+<a href = "index.php?page=add">Добавить страницу</a>
+
+
 <?php
-// автозагрузка классов
-function __autoload($name)
-{
-    require_once($name . '.php');
-}
-$today = new classes\GetDate();
 $content = new classes\CcreateEdit();
+
+if ($_GET["page"]=="add")
+{
+   require_once "views/vcreate.php";
+}
+
+
+
 
