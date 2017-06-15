@@ -32,6 +32,6 @@ class GetDate
         $today_day = date("w");
         $today_month = date("n");
 
-        echo "Сегодня ".$day["$today_day"].", ".date("j")." ".$month["$today_month"];
+        echo "Сегодня ".$day["$today_day"].", ".date("j")." ".$month["$today_month"]." ".date("Y года");
     }
 }
