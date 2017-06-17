@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @filename DB.php
+ * набор компонентов для работы с БД
+ * @author Алексей Коптяев
+ * @copyright 15.06.2017
+ */
 
 namespace classes;
 
