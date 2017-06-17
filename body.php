@@ -12,7 +12,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href = "index.php?page=add">Добавить страницу</a></li>
+                <li><a href = "index.php?page=add">!!!</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->
@@ -25,19 +25,9 @@
 
 <?php
 // создаем обьекты
-$content = new classes\CcreateEdit();
-
-if ($_GET["page"]=="add")
-{
-   require_once "views/vcreate.php";
-}
-
-if($_POST){
-    if ($_GET["page"]=="add")
-    {
-        $content->saveToDB($_POST);
-    }
-}
+$menu = new \classes\Cmenu();
+$result = $menu->get_menu_from_DB();
+var_dump($result);
 
 
 
