@@ -1,0 +1,10 @@
+#addpageform{
+    width: 300px;
+    margin: 1%;
+    padding: 1%;
+    border: solid firebrick 1px;
+}
+
+li{
+    list-style-type: none; /* Убираем маркеры */
+}
