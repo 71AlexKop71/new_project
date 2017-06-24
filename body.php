@@ -1,5 +1,5 @@
 <?php
-// создаем обьекты
+// создаем обьект
 $menu = new \classes\Cmenu();
 
 require_once "views/vmenu.php";
