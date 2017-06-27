@@ -17,4 +17,5 @@ function __autoload($name)
     require_once($name . '.php');
 }
 
-//$today = new classes\GetDate(); //выводим дату
+
+  
